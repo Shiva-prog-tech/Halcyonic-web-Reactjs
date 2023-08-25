@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: #2e3337;
+    background:url(bg04.jpg);
+    margin: auto;
+    padding: 60px;
+    opacity:0.99;
+    box-shadow: inset 0px -1px 0px 0px #2d3132;
+    border-bottom: 1.3px solid #000000;
+    .logo h1{
+        color: lightcyan;
+        font-size: 34px;
+        /* font-family: "Source Sans Pro", Arial, sans-serif; */
+        font-weight: lighter;
+        width: 50%;
+        /* height: 10vh; */
+        }
+    .links-list{
+        width: 60%;
+            ul{
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+                gap:60px;
+                font-weight: 500;
+                font-size: 21px;
+                margin: auto;
+                height: 10vh;
+                li a{
+                    text-decoration: none;
+                    color: lightcyan;
+                    
+                    /* font-family: "Source Sans Pro", Arial, sans-serif; */
+                }
+                li a:hover{
+                    color: #e62323;
+                }
+                
+            }
+            
+             
+        
+    }
+    div{
+        width:45% ;
+     }
+}
