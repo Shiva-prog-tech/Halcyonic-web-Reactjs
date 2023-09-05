@@ -2,8 +2,6 @@
 
 This project 
 
-Uploading Level.mp4…
-
 was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available
